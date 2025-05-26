@@ -83,5 +83,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-  <p><a href="/posts/">View all →</a></p>
+  <!-- <p><a href="/posts/">View all →</a></p> -->
 </section>
