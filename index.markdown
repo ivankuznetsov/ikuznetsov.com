@@ -65,7 +65,7 @@ layout: default
         </div>
         
         <div class="project-item">
-          <h4><a href="https://topgreendeals.co.uk" target="_blank">Top Green Deals</a></h4>
+         <h4> <!-- <a href="https://topgreendeals.co.uk" target="_blank">-->TopGreenDeals.co.uk <!-- </a>--></h4> 
           <p>Curated aggregator of green energy solutions for homes and SMBs. Making sustainable choices simple and cost-effective.</p>
         </div>
       </div>
@@ -79,7 +79,7 @@ layout: default
     {% for post in site.posts limit:5 %}
       <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
       </li>
     {% endfor %}
   </ul>
