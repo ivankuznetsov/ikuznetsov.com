@@ -35,7 +35,7 @@ layout: default
       
       <div class="project-item">
         <h4><a href="http://innersense.app" target="_blank">InnerSense</a></h4>
-        <p>Science-backed psychotherapy practices in your pocket. A mobile app that brought mental wellness tools to thousands of users. (Post-mortem)</p>
+        <p>Science-backed psychotherapy practices in your pocket. A mobile app that brought mental wellness tools to thousands of users. <!--(Post-mortem)--> </p>
       </div>
     </div>
     
