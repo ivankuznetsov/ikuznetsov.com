@@ -21,7 +21,7 @@
 title: Ivan Kuznetsov
 email: ivan@ikuznetsov.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I create and develop internet projects, helping people interact more effectively.
+  I create and develop internet projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ikuznetsov.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -51,8 +51,8 @@ search: true
 author:
   name: "Ivan Kuznetsov"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I create and develop IT projects. I help people interact more effectively."
-  location: "Saint Petersburg, Russia"
+  bio: "I create and develop internet projects."
+  location: "United Kingdom"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

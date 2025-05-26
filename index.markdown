@@ -11,7 +11,7 @@ layout: default
   </div>
   <div class="profile-info">
     <h1>Ivan Kuznetsov</h1>
-    <p>Former technical leader, senior PM, fintech executive and multiple failed startups founder; now: psychology enthusiast, product management consultant, and Ruby on Rails amateur tinkering with AI.</p>
+    <p>Former technical leader, senior PM, fintech executive and multiple failed startups founder; now: psychology enthusiast, product management expert, and Ruby on Rails amateur tinkering with AI.</p>
     
     <div class="social-links">
       <a href="http://twitter.com/ikuznetsov_com" target="_blank" title="X">
