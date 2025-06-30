@@ -73,6 +73,8 @@ layout: default
   </div>
 </section>
 
+{% include newsletter-signup.html %}
+
 <section>
   <h2>Recent publications</h2>
   <ul>

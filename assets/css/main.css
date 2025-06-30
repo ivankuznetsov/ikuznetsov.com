@@ -288,6 +288,92 @@ footer h2 {
   height: 1.5rem;
 }
 
+/* === NEWSLETTER SIGNUP === */
+.newsletter-signup {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 0.625rem;
+  border: 0.0625rem solid #e5e5e5;
+}
+
+.newsletter-content h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.newsletter-content p {
+  margin-bottom: 1.5rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.newsletter-form {
+  margin: 0;
+}
+
+.form-group {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.email-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  font-family: Georgia, serif;
+  background: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #999;
+  box-shadow: 0 0 0 0.125rem rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-btn {
+  padding: 0.75rem 1.5rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  font-family: Georgia, serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.subscribe-btn:hover {
+  background: #555;
+  transform: translateY(-0.0625rem);
+}
+
+.subscribe-btn:active {
+  transform: translateY(0);
+}
+
+.newsletter-note {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #888;
+  text-align: center;
+}
+
+.newsletter-note a {
+  color: #666;
+  text-decoration: underline;
+}
+
+.newsletter-note a:hover {
+  color: #333;
+}
+
 /* === BLOG POST LIST === */
 section ul {
   list-style: none;
@@ -380,6 +466,27 @@ section ul li:last-child {
   .profile {
     flex-direction: column;
     text-align: center;
+  }
+  
+  /* Newsletter signup mobile styles */
+  .newsletter-signup {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+  }
+  
+  .newsletter-content h2 {
+    font-size: 1.25rem;
+  }
+  
+  .form-group {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .email-input,
+  .subscribe-btn {
+    width: 100%;
+    padding: 0.875rem 1rem;
   }
   
   /* Smaller fonts on mobile */
