@@ -34,7 +34,7 @@ layout: default
       <h3>Past</h3>
       
       <div class="project-item">
-        <h4><a href="http://innersense.app" target="_blank">InnerSense</a></h4>
+        <h4>InnerSense</h4>
         <p>Science-backed psychotherapy practices in your pocket. A mobile app that brought mental wellness tools to thousands of users. <!--(Post-mortem)--> </p>
       </div>
     </div>
@@ -65,7 +65,7 @@ layout: default
         </div>
         
         <div class="project-item">
-         <h4> <!-- <a href="https://topgreendeals.co.uk" target="_blank">-->TopGreenDeals.co.uk <!-- </a>--></h4> 
+         <h4><a href="https://topgreendeals.co.uk" target="_blank">TopGreenDeals.co.uk</a></h4> 
           <p>Curated aggregator of green energy solutions for homes and SMBs. Making sustainable choices simple and cost-effective.</p>
         </div>
       </div>
