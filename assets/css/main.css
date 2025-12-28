@@ -557,6 +557,14 @@ section ul li:last-child {
   line-height: 1.7;
 }
 
+.post-content a {
+  text-decoration: underline;
+}
+
+.post-content a:hover {
+  opacity: 0.7;
+}
+
 /* === POST NAVIGATION === */
 .post-navigation {
 
