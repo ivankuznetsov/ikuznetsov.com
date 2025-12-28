@@ -98,7 +98,7 @@ defaults:
       comments: true
       share: true
       related: true
-      image: /assets/images/og-image.jpg
+      image: /assets/images/icon-v2.jpg
   # _pages
   - scope:
       path: ""
@@ -106,12 +106,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      image: /assets/images/og-image.jpg
+      image: /assets/images/icon-v2.jpg
   # all files
   - scope:
       path: ""
     values:
-      image: /assets/images/og-image.jpg
+      image: /assets/images/icon-v2.jpg
 
 # Collections
 collections:
