@@ -41,31 +41,20 @@ layout: default
     
     <div class="project">
       <h3>Current</h3>
-      
-      <div class="project-item">
-        <h4><a href="https://todero.app" target="_blank">Todero</a></h4>
-        <p>No-nonsense to-do list built for power users. Features keyboard-first navigation and seamless Telegram integration for capturing tasks on the go.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="project-grid-upcoming">
-    <div class="project">
-      <h3>Upcoming</h3>
-      
+
       <div class="upcoming-items">
         <div class="project-item">
-          <h4>Writero</h4>
+          <h4><a href="https://todero.app" target="_blank">Todero</a></h4>
+          <p>No-nonsense to-do list built for power users. Features keyboard-first navigation and seamless Telegram integration for capturing tasks on the go.</p>
+        </div>
+
+        <div class="project-item">
+          <h4><a href="https://writero.app" target="_blank">Writero</a></h4>
           <p>Smart writing assistant that helps you craft better content, faster. AI-powered suggestions without the fluff.</p>
         </div>
-        
+
         <div class="project-item">
-          <h4>Calendero</h4>
-          <p>Intelligent calendar scheduling through a Telegram bot. Schedule meetings and manage your time without leaving your messenger.</p>
-        </div>
-        
-        <div class="project-item">
-         <h4><a href="https://topgreendeals.co.uk" target="_blank">TopGreenDeals.co.uk</a></h4> 
+         <h4><a href="https://topgreendeals.co.uk" target="_blank">TopGreenDeals.co.uk</a></h4>
           <p>Curated aggregator of green energy solutions for homes and SMBs. Making sustainable choices simple and cost-effective.</p>
         </div>
       </div>
