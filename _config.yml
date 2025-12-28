@@ -30,6 +30,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+permalink: /posts/:title/
+
 # Exclude from processing.
 exclude:
   - .sass-cache/
