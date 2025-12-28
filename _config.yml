@@ -71,9 +71,9 @@ author:
 # Social/SEO
 twitter:
   username: ikuznetsov_com
-  card: summary_large_image
+  card: summary
 
-image: /assets/images/og-image.jpg
+image: /assets/images/twitter-icon.jpg
 
 # Footer
 footer:
