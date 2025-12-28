@@ -28,36 +28,32 @@ layout: default
 
 <section class="projects">
   <h2>My Projects</h2>
-  
-  <div class="project-grid-current-past">
-    <div class="project">
-      <h3>Past</h3>
-      
+
+  <div class="project">
+    <h3>Current</h3>
+    <div class="current-items">
       <div class="project-item">
-        <h4>InnerSense</h4>
-        <p>Science-backed psychotherapy practices in your pocket. A mobile app that brought mental wellness tools to thousands of users. <!--(Post-mortem)--> </p>
+        <h4><a href="https://todero.app" target="_blank">Todero</a></h4>
+        <p>No-nonsense to-do list built for power users. Features keyboard-first navigation and seamless Telegram integration for capturing tasks on the go.</p>
+      </div>
+
+      <div class="project-item">
+        <h4><a href="https://writero.app" target="_blank">Writero</a></h4>
+        <p>Smart writing assistant that helps you craft better content, faster. AI-powered suggestions without the fluff.</p>
+      </div>
+
+      <div class="project-item">
+        <h4><a href="https://topgreendeals.co.uk" target="_blank">TopGreenDeals.co.uk</a></h4>
+        <p>Curated aggregator of green energy solutions for homes and SMBs. Making sustainable choices simple and cost-effective.</p>
       </div>
     </div>
-    
-    <div class="project">
-      <h3>Current</h3>
+  </div>
 
-      <div class="upcoming-items">
-        <div class="project-item">
-          <h4><a href="https://todero.app" target="_blank">Todero</a></h4>
-          <p>No-nonsense to-do list built for power users. Features keyboard-first navigation and seamless Telegram integration for capturing tasks on the go.</p>
-        </div>
-
-        <div class="project-item">
-          <h4><a href="https://writero.app" target="_blank">Writero</a></h4>
-          <p>Smart writing assistant that helps you craft better content, faster. AI-powered suggestions without the fluff.</p>
-        </div>
-
-        <div class="project-item">
-         <h4><a href="https://topgreendeals.co.uk" target="_blank">TopGreenDeals.co.uk</a></h4>
-          <p>Curated aggregator of green energy solutions for homes and SMBs. Making sustainable choices simple and cost-effective.</p>
-        </div>
-      </div>
+  <div class="project">
+    <h3>Past</h3>
+    <div class="project-item">
+      <h4>InnerSense</h4>
+      <p>Science-backed psychotherapy practices in your pocket. A mobile app that brought mental wellness tools to thousands of users.</p>
     </div>
   </div>
 </section>

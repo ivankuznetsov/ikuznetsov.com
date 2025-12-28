@@ -195,15 +195,15 @@ li {
 /* Upcoming projects section */
 
 
-/* Three column layout for upcoming projects */
-.upcoming-items {
+/* Three column layout for current projects */
+.current-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.875rem;
   margin-top: 1.25rem;
 }
 
-.upcoming-items .project-item {
+.current-items .project-item {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
@@ -439,8 +439,8 @@ section ul li:last-child {
     gap: 1.875rem;
   }
   
-  /* Stack upcoming projects vertically on mobile */
-  .upcoming-items {
+  /* Stack current projects vertically on mobile */
+  .current-items {
     grid-template-columns: 1fr;
     gap: 0.5rem;
   }
