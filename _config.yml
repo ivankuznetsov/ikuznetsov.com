@@ -21,7 +21,7 @@
 title: Ivan Kuznetsov
 email: ivan@ikuznetsov.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I create and develop internet projects.
+  I create and launch internet projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ikuznetsov.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -30,6 +30,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 permalink: /posts/:title/
 
@@ -54,7 +55,7 @@ search: true
 author:
   name: "Ivan Kuznetsov"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I create and develop internet projects."
+  bio: "I create and launch internet projects."
   location: "United Kingdom"
   links:
     - label: "LinkedIn"
@@ -66,6 +67,13 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ivan@ikuznetsov.com"
+
+# Social/SEO
+twitter:
+  username: ikuznetsov_com
+  card: summary_large_image
+
+image: /assets/images/og-image.jpg
 
 # Footer
 footer:
@@ -90,6 +98,7 @@ defaults:
       comments: true
       share: true
       related: true
+      image: /assets/images/og-image.jpg
   # _pages
   - scope:
       path: ""
@@ -97,6 +106,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+      image: /assets/images/og-image.jpg
+  # all files
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-image.jpg
 
 # Collections
 collections:
