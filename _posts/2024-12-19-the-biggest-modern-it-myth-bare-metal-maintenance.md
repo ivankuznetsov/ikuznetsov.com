@@ -3,6 +3,8 @@ layout: post
 title: "The Biggest Modern IT Myth: Bare Metal Maintenance Cost"
 date: 2024-12-19 10:00:00 +0100
 categories: technology infrastructure
+redirect_from:
+  - /technology/infrastructure/2024/12/19/the-biggest-modern-it-myth-bare-metal-maintenance/
 ---
 
 The biggest modern IT myth is the maintenance cost of bare metal. People are talking about servers made from metal by engineers as if they're some mythical devices made by ancient wizards. I can imagine some software magic in closed source applications like Oracle databases, but most of the software we use for servers is open source—you can literally read the code.

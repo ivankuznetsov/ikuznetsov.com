@@ -3,6 +3,8 @@ layout: post
 title: "Too many data, too little decisions"
 date: 2024-12-18 10:00:00 +0100
 categories: product analytics
+redirect_from:
+  - /product/analytics/2024/12/18/too-many-data-too-little-decisions/
 ---
 
 Sometimes, when I communicate with product companies, it seems to me that they are too much obsessed with data.

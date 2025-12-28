@@ -3,6 +3,8 @@ layout: post
 title: "On the problem of solved car and our love of the Machine God and mechanisms"
 date: 2025-12-28 12:00:00 +0100
 categories: technology culture
+redirect_from:
+  - /technology/culture/2025/12/28/on-the-problem-of-solved-car-and-our-love-of-the-machine-god-and-mechanisms/
 ---
 
 My first test drive experience with an electric car was not as pleasant as I expected. I was not comfortable with regenerative braking, and my wife got seasick during our first trip. She also scratched the wheel while parking despite all the electronic aids. However, the 0% APR offer, positive recommendations from our friends, and the perfect experience with the dealership—who told us not to worry about the wheel and to take our time making the decision, even allowing us to take a longer test drive when we needed it—helped us make the decision.

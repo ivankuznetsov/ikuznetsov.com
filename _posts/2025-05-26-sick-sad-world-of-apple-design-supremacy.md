@@ -3,6 +3,8 @@ layout: post
 title: "Sick, sad world of Apple design supremacy"
 date: 2025-05-26 15:00:00 +0100
 categories: design technology
+redirect_from:
+  - /design/technology/2025/05/26/sick-sad-world-of-apple-design-supremacy/
 ---
 
 When you hold any Apple product, you have a much more premium feeling than with most luxuries. We were truly blessed to experience such feelings from mass market products—or do we?
