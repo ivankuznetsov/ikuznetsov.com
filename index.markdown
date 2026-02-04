@@ -58,6 +58,21 @@ layout: default
   </div>
 </section>
 
+<section class="opensource">
+  <h2>Opensource</h2>
+  <div class="current-items">
+    <div class="project-item">
+      <h4><a href="https://github.com/ivankuznetsov/rails_simple_auth" target="_blank">rails_simple_auth</a></h4>
+      <p>Modern authentication gem for Rails 8+ with email/password auth, magic links, and OAuth.</p>
+    </div>
+
+    <div class="project-item">
+      <h4><a href="https://github.com/ivankuznetsov/claude-seo" target="_blank">claude-seo</a></h4>
+      <p>Agentic SEO skill for Claude Code that automates SEO content research and writing.</p>
+    </div>
+  </div>
+</section>
+
 {% include newsletter-signup.html %}
 
 <section>
