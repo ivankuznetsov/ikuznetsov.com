@@ -50,25 +50,25 @@ layout: default
   </div>
 
   <div class="project">
+    <h3>Opensource</h3>
+    <div class="current-items">
+      <div class="project-item">
+        <h4><a href="https://github.com/ivankuznetsov/rails_simple_auth" target="_blank">rails_simple_auth</a></h4>
+        <p>Modern authentication gem for Rails 8+ with email/password auth, magic links, and OAuth.</p>
+      </div>
+
+      <div class="project-item">
+        <h4><a href="https://github.com/ivankuznetsov/claude-seo" target="_blank">claude-seo</a></h4>
+        <p>Agentic SEO skill for Claude Code that automates SEO content research and writing.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
     <h3>Past</h3>
     <div class="project-item">
       <h4>InnerSense</h4>
       <p>Science-backed psychotherapy practices in your pocket. A mobile app that brought mental wellness tools to thousands of users.</p>
-    </div>
-  </div>
-</section>
-
-<section class="opensource">
-  <h2>Opensource</h2>
-  <div class="current-items">
-    <div class="project-item">
-      <h4><a href="https://github.com/ivankuznetsov/rails_simple_auth" target="_blank">rails_simple_auth</a></h4>
-      <p>Modern authentication gem for Rails 8+ with email/password auth, magic links, and OAuth.</p>
-    </div>
-
-    <div class="project-item">
-      <h4><a href="https://github.com/ivankuznetsov/claude-seo" target="_blank">claude-seo</a></h4>
-      <p>Agentic SEO skill for Claude Code that automates SEO content research and writing.</p>
     </div>
   </div>
 </section>
