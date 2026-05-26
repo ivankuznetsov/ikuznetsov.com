@@ -692,7 +692,7 @@ section ul li:last-child {
 .callout {
   margin: 2rem 0;
   padding: 1rem 1.25rem;
-  border: 1px solid #e1e4e8;
+  background: #e1e4e8;
   border-radius: 6px;
 }
 
