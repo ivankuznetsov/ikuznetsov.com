@@ -5,12 +5,8 @@
   "use strict";
 
   function flash(btn) {
-    var original = btn.getAttribute("data-label") || btn.textContent;
-    btn.setAttribute("data-label", original);
-    btn.textContent = "Copied!";
     btn.classList.add("copied");
     setTimeout(function () {
-      btn.textContent = original;
       btn.classList.remove("copied");
     }, 1500);
   }

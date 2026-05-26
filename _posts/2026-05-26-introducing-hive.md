@@ -23,6 +23,17 @@ I forgot to mention that the 25,000 lines I referenced at the beginning of this 
 
 First of all, I will show you how to install and init Hive on a new project.
 
+<aside class="callout">
+  <p class="callout-title">In a hurry? Hand this prompt to Claude Code, Codex, or any agent CLI and it'll install Hive for you:</p>
+  <div class="callout-code">
+    <button type="button" class="copy-btn" data-copy-target="hive-install-prompt" aria-label="Copy install prompt">
+      <svg class="icon-copy" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+      <svg class="icon-check" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    </button>
+    <pre><code id="hive-install-prompt">Install the Hive CLI on my machine. Read https://github.com/ivankuznetsov/hive/blob/main/install.md and follow it: detect my OS, pick the right install channel, install the latest stable release, verify `hive --version`, then offer to run `hive init` in my current project.</code></pre>
+  </div>
+</aside>
+
 Hive ships as a signed Ruby gem: Homebrew on macOS (Apple Silicon), the AUR on Arch, and a one-line installer on Ubuntu 22.04+ or other glibc Linux (x86_64 / aarch64)—that last one is what the clip shows. You grab `install.sh` from the repo and run it, and it downloads the signed gem, verifies the checksum, and `gem install`s it. (In the clip I'd already downloaded `install.sh`, so you just see me run `./install.sh`.) You only need Ruby 3.4 plus git, an authenticated `gh`, and your agents (`claude`, `codex`); everything lands under `~/.local/share/hive`, so uninstalling is a clean `rm -rf`.
 
 <figure class="demo-video">
@@ -40,14 +51,6 @@ Once it's installed, you run `hive init` inside any project. It asks a handful o
   </video>
   <figcaption>Running <code>hive init</code> on a fresh project</figcaption>
 </figure>
-
-<aside class="callout">
-  <p class="callout-title">In a hurry? Hand this prompt to Claude Code, Codex, or any agent CLI and it'll install Hive for you:</p>
-  <div class="callout-code">
-    <button type="button" class="copy-btn" data-copy-target="hive-install-prompt">Copy</button>
-    <pre><code id="hive-install-prompt">Install the Hive CLI on my machine. Read https://github.com/ivankuznetsov/hive/blob/main/install.md and follow it: detect my OS, pick the right install channel, install the latest stable release, verify `hive --version`, then offer to run `hive init` in my current project.</code></pre>
-  </div>
-</aside>
 
 Everything starts with an idea. So, I just open the Hive TUI and write an idea here by pressing "n."
 

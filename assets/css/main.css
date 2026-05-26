@@ -662,8 +662,7 @@ section ul li:last-child {
 .callout {
   margin: 2rem 0;
   padding: 1rem 1.25rem;
-  border-left: 3px solid #6ea8fe;
-  background: #161616;
+  border: 1px solid #3a3a3a;
   border-radius: 6px;
 }
 
@@ -680,8 +679,7 @@ section ul li:last-child {
 .callout-code pre {
   margin: 0;
   padding: 0.9rem 1rem;
-  background: #0d0d0d;
-  border: 1px solid #2a2a2a;
+  border: 1px solid #3a3a3a;
   border-radius: 6px;
   overflow-x: auto;
 }
@@ -698,22 +696,38 @@ section ul li:last-child {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
-  padding: 0.3rem 0.7rem;
-  font-size: 0.75rem;
-  color: #ddd;
-  background: #2a2a2a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  line-height: 0;
+  color: #aaa;
+  background: none;
   border: 1px solid #3a3a3a;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .copy-btn:hover {
-  background: #3a3a3a;
+  color: #fff;
+  border-color: #555;
+}
+
+.copy-btn .icon-check {
+  display: none;
 }
 
 .copy-btn.copied {
   color: #7ee787;
   border-color: #2ea043;
+}
+
+.copy-btn.copied .icon-copy {
+  display: none;
+}
+
+.copy-btn.copied .icon-check {
+  display: inline;
 }
 
 @media (max-width: 48rem) {
