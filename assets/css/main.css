@@ -690,7 +690,7 @@ section ul li:last-child {
 
 /* Install-prompt callout with copy button */
 .callout {
-  margin: 2rem 0;
+  margin: 1rem 0;
   padding: 1rem 1.25rem;
   background: #e1e4e8;
   border-radius: 6px;
@@ -699,7 +699,6 @@ section ul li:last-child {
 .callout-title {
   margin: 0 0 0.75rem;
   font-size: 0.95rem;
-  color: #333;
 }
 
 .callout-code {
