@@ -658,38 +658,52 @@ section ul li:last-child {
   text-align: center;
 }
 
+/* Code — inline snippets and blocks */
+.post-content code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85em;
+  background: #f3f4f6;
+  color: #1f2328;
+  padding: 0.12em 0.35em;
+  border-radius: 4px;
+}
+
+.post-content pre {
+  margin: 0;
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #1f2328;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 /* Install-prompt callout with copy button */
 .callout {
   margin: 2rem 0;
   padding: 1rem 1.25rem;
-  border: 1px solid #3a3a3a;
+  border: 1px solid #e1e4e8;
   border-radius: 6px;
 }
 
 .callout-title {
   margin: 0 0 0.75rem;
   font-size: 0.95rem;
-  color: #ccc;
+  color: #333;
 }
 
 .callout-code {
   position: relative;
-}
-
-.callout-code pre {
-  margin: 0;
-  padding: 0.9rem 1rem;
-  border: 1px solid #3a3a3a;
-  border-radius: 6px;
-  overflow-x: auto;
-}
-
-.callout-code code {
-  white-space: pre-wrap;
-  word-break: break-word;
-  font-size: 0.85rem;
-  line-height: 1.5;
-  color: #e6e6e6;
 }
 
 .copy-btn {
@@ -701,16 +715,16 @@ section ul li:last-child {
   justify-content: center;
   padding: 0.3rem;
   line-height: 0;
-  color: #aaa;
-  background: none;
-  border: 1px solid #3a3a3a;
+  color: #57606a;
+  background: #fff;
+  border: 1px solid #d0d7de;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .copy-btn:hover {
-  color: #fff;
-  border-color: #555;
+  color: #1f2328;
+  border-color: #afb8c1;
 }
 
 .copy-btn .icon-check {
@@ -718,8 +732,8 @@ section ul li:last-child {
 }
 
 .copy-btn.copied {
-  color: #7ee787;
-  border-color: #2ea043;
+  color: #1a7f37;
+  border-color: #1a7f37;
 }
 
 .copy-btn.copied .icon-copy {
