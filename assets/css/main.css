@@ -637,3 +637,88 @@ section ul li:last-child {
     max-width: 100%;
   }
 } 
+/* Inline demo video clips (autoplay-on-scroll) */
+.demo-video {
+  margin: 2rem 0;
+}
+
+.demo-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  background: #000;
+}
+
+.demo-video figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #888;
+  text-align: center;
+}
+
+/* Install-prompt callout with copy button */
+.callout {
+  margin: 2rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid #6ea8fe;
+  background: #161616;
+  border-radius: 6px;
+}
+
+.callout-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.callout-code {
+  position: relative;
+}
+
+.callout-code pre {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  background: #0d0d0d;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.callout-code code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #e6e6e6;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.75rem;
+  color: #ddd;
+  background: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #3a3a3a;
+}
+
+.copy-btn.copied {
+  color: #7ee787;
+  border-color: #2ea043;
+}
+
+@media (max-width: 48rem) {
+  .copy-btn {
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+}
