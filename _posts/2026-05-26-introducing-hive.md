@@ -114,6 +114,6 @@ I very often run Hive via another agent. I drop a few ideas, pass them through a
 
 Hive works as a state machine orchestrator for specialized coding agents. It's not a do-it-all agent; it's a workflow manager. So, you can give Hive to OpenClaw and they will work perfectly together—OpenClaw will use Hive headless and manage it, and Hive will do what it does best: manage coding agents from idea to PR.
 
-I'm using Hive daily now, but as a single developer who works on it in my spare time, I have limited abilities to test it across different workflows, operating systems, and tasks. I really want your feedback. You can reach me via ivan@ikuznetsov.com or in the Discord group I created especially for Hive.
+I'm using Hive daily now, but as a single developer who works on it in my spare time, I have limited abilities to test it across different workflows, operating systems, and tasks. I really want your feedback. You can reach me via ivan@ikuznetsov.com or in the [Discord group](https://discord.gg/Qg5E7rMt) I created especially for Hive.
 
 Happy tinkering.
