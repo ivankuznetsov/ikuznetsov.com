@@ -36,6 +36,11 @@ First of all, I will show you how to install and init Hive on a new project.
 
 Hive ships as a signed Ruby gem: Homebrew on macOS (Apple Silicon), the AUR on Arch, and a one-line installer on Ubuntu 22.04+ or other glibc Linux (x86_64 / aarch64)—that last one is what the clip shows. You grab `install.sh` from the repo and run it, and it downloads the signed gem, verifies the checksum, and `gem install`s it. (In the clip I'd already downloaded `install.sh`, so you just see me run `./install.sh`.) You only need Ruby 3.4 plus git, an authenticated `gh`, and your agents (`claude`, `codex`); everything lands under `~/.local/share/hive`, so uninstalling is a clean `rm -rf`.
 
+<aside class="callout">
+  <p class="callout-title">A heads-up on cost</p>
+  <p>Hive is a token-heavy workflow. You can customize it, but by default it runs a lot of subagents and several different coding agents, and it burns through a LOT of tokens. I strongly recommend a Claude Max subscription plus ChatGPT Pro for Codex to run it properly—the best results come from the top-tier subscriptions. If you're really tight on budget, you might try the Pi agent with the latest Kimi model for some parts of the workflow, though I haven't tested the Pi integration properly yet or evaluated its performance.</p>
+</aside>
+
 <figure class="demo-video">
   <video muted loop playsinline preload="metadata">
     <source src="/assets/videos/hive/install.mp4" type="video/mp4">
