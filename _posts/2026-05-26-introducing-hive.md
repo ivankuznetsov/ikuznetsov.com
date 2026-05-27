@@ -34,7 +34,7 @@ First of all, I will show you how to install and init Hive on a new project.
   </div>
 </aside>
 
-Hive ships as a signed Ruby gem: Homebrew on macOS (Apple Silicon), the AUR on Arch, and a one-line installer on Ubuntu 22.04+ or other glibc Linux (x86_64 / aarch64)—that last one is what the clip shows. You grab `install.sh` from the repo and run it, and it downloads the signed gem, verifies the checksum, and `gem install`s it. (In the clip I'd already downloaded `install.sh`, so you just see me run `./install.sh`.) You only need Ruby 3.4 plus git, an authenticated `gh`, and your agents (`claude`, `codex`); everything lands under `~/.local/share/hive`, so uninstalling is a clean `rm -rf`.
+Hive ships as a signed Ruby gem: [Homebrew](https://github.com/ivankuznetsov/homebrew-hive) on macOS (Apple Silicon), the [AUR](https://aur.archlinux.org/packages/hive-bin) on Arch, and a one-line installer on Ubuntu 22.04+ or other glibc Linux (x86_64 / aarch64)—that last one is what the clip shows. You grab `install.sh` from the repo and run it, and it downloads the signed gem, verifies the checksum, and `gem install`s it. (In the clip I'd already downloaded `install.sh`, so you just see me run `./install.sh`.) You only need Ruby 3.4 plus git, an authenticated `gh`, and your agents (`claude`, `codex`); everything lands under `~/.local/share/hive`, so uninstalling is a clean `rm -rf`.
 
 <aside class="callout">
   <p class="callout-title">A heads-up on cost</p>
