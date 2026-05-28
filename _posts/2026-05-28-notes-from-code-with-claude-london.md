@@ -3,6 +3,14 @@ layout: post
 title: "Notes from the margins of Code with Claude London"
 date: 2026-05-28 12:00:00 +0100
 categories: ai engineering
+description: "\"Hands up — who shipped a PR from Claude this past week without reading the diff?\" Notes from inside the room at Anthropic's Code w/ Claude London 2026 — the argument is over, the work has moved to engineering around the agents."
+image:
+  path: /assets/images/code-with-claude/og.png
+  width: 1200
+  height: 630
+  alt: "Notes from the margins of Code with Claude London — Ivan Kuznetsov"
+twitter:
+  card: summary_large_image
 ---
 
 "Hands up — who shipped a PR from Claude this past week without reading the diff?" The question came from the stage, flat, no setup. Most of the room raised their hands. The way you'd raise your hand if someone asked who uses git.
