@@ -24,6 +24,12 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.original_url %}
+    <aside class="original-source">
+      Originally posted on <a href="{{ page.original_url }}" rel="nofollow noopener" target="_blank">HackerNoon</a>.
+    </aside>
+  {% endif %}
+
   <nav class="post-navigation">
     <div class="nav-links">
       {% if page.previous.url %}

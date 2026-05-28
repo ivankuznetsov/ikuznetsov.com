@@ -46,6 +46,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - plans/
+  - script/
+  - aikuznetsov-com.md
+  - .playwright-mcp/
 
 # Minimal Mistakes theme settings
 minimal_mistakes_skin: "dark"

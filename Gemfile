@@ -34,3 +34,10 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-include-cache"
+
+# Gems used only by script/import_hackernoon.rb. Loaded on-demand by the script,
+# never by jekyll build or jekyll serve.
+group :import do
+  gem "nokogiri", "~> 1.16"
+  gem "reverse_markdown", "~> 2.1"
+end

@@ -199,14 +199,49 @@ li {
 .current-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.875rem;
+  column-gap: 1.875rem;
+  row-gap: 1rem;
   margin-top: 1.25rem;
+  align-items: start;
 }
 
 .current-items .project-item {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
+}
+
+.current-items .project-item h4 {
+  margin-top: 0;
+  margin-bottom: 0.375rem;
+}
+
+.current-items .project-item p {
+  margin-bottom: 0;
+}
+
+.project-item h4 .featured-icon {
+  width: 0.85em;
+  height: 0.85em;
+  margin-right: 0.3rem;
+  vertical-align: -0.075em;
+  opacity: 0.35;
+}
+
+.project + .project {
+  margin-top: 2.5rem;
+}
+
+.original-source {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 0.0625rem solid #eee;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.original-source a {
+  color: #333;
 }
 
 .project h3 {
@@ -669,7 +704,7 @@ section ul li:last-child {
 }
 
 .post-content pre {
-  margin: 0;
+  margin: 1.5rem 0;
   background: #f6f8fa;
   border: 1px solid #e1e4e8;
   border-radius: 6px;
