@@ -810,3 +810,50 @@ section ul li:last-child {
   max-width: 100%;
   height: auto;
 }
+
+/* Charts rendered as SVG: keep a sensible cap, never blurry */
+.post-content figure.chart img {
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+/* Data tables in post bodies */
+.post-content figure.data-table {
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.post-content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.92rem;
+  color: #2b2b2b;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.55rem 0.9rem;
+  text-align: left;
+  border-bottom: 1px solid #ededed;
+}
+
+.post-content thead th {
+  color: #6b6b6b;
+  font-weight: 600;
+  border-bottom: 2px solid #d0d7de;
+}
+
+.post-content td.num,
+.post-content th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.post-content tr.total td {
+  font-weight: 700;
+  background: #f3f5f7;
+  border-top: 2px solid #d0d7de;
+  border-bottom: none;
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="100%" role="img" style="max-width:760px">
+<rect width="760" height="430" fill="#ffffff"/>
+<text x="40" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2b2b2b">How much the stronger model closes the v1–v2 gap</text>
+<text x="40" y="62" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#6b6b6b">Sonnet → Opus  ·  blue = the model already knows the reviewer</text>
+<text x="40.0" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">-6</text>
+<text x="120.3" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">-3</text>
+<text x="200.6" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">0</text>
+<text x="280.9" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">+3</text>
+<text x="361.2" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">+6</text>
+<text x="468.3" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">+10</text>
+<text x="575.4" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">+14</text>
+<text x="682.5" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">+18</text>
+<rect x="200.6" y="105.5" width="481.8" height="29.3" rx="2" fill="#2f7ab0"/>
+<text x="38.0" y="97.5" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">José Valim  (31→13)</text>
+<text x="689.5" y="124.7" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">+18</text>
+<rect x="200.6" y="161.9" width="428.3" height="29.3" rx="2" fill="#2f7ab0"/>
+<text x="38.0" y="153.9" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">DHH  (14→−2)</text>
+<text x="635.9" y="181.1" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">+16</text>
+<circle cx="200.6" cy="233.0" r="4" fill="#c4cad2"/>
+<text x="38.0" y="210.3" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">Tim Hockin  (8→8)</text>
+<text x="207.6" y="237.5" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">0</text>
+<rect x="120.3" y="274.7" width="80.3" height="29.3" rx="2" fill="#c4cad2"/>
+<text x="38.0" y="266.7" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">Rafael França  (8→11)</text>
+<text x="113.3" y="293.9" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">-3</text>
+<rect x="120.3" y="331.1" width="80.3" height="29.3" rx="2" fill="#c4cad2"/>
+<text x="38.0" y="323.1" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">private Go reviewer  (−1→2)</text>
+<text x="113.3" y="350.3" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#2b2b2b">-3</text>
+<line x1="200.6" y1="88" x2="200.6" y2="374" stroke="#6b6b6b" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="40" y="414" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">gap widened</text>
+<text x="736" y="414" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#6b6b6b">gap closed (points)</text>
+</svg>

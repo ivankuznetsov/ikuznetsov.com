@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="100%" role="img" style="max-width:760px">
+<rect width="760" height="430" fill="#ffffff"/>
+<text x="40" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#2b2b2b">Private Go reviewer — diff-only (the control)</text>
+<line x1="56" y1="358.0" x2="736" y2="358.0" stroke="#ededed" stroke-width="1"/>
+<text x="46" y="362.0" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#6b6b6b">0</text>
+<line x1="56" y1="302.0" x2="736" y2="302.0" stroke="#ededed" stroke-width="1"/>
+<text x="46" y="306.0" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#6b6b6b">10</text>
+<line x1="56" y1="246.0" x2="736" y2="246.0" stroke="#ededed" stroke-width="1"/>
+<text x="46" y="250.0" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#6b6b6b">20</text>
+<line x1="56" y1="190.0" x2="736" y2="190.0" stroke="#ededed" stroke-width="1"/>
+<text x="46" y="194.0" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#6b6b6b">30</text>
+<line x1="56" y1="134.0" x2="736" y2="134.0" stroke="#ededed" stroke-width="1"/>
+<text x="46" y="138.0" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#6b6b6b">40</text>
+<line x1="56" y1="78.0" x2="736" y2="78.0" stroke="#ededed" stroke-width="1"/>
+<text x="46" y="82.0" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#6b6b6b">50</text>
+<text x="16" y="218" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#6b6b6b" transform="rotate(-90 16 218)" text-anchor="middle">recall %</text>
+<rect x="93.4" y="308.2" width="95.2" height="49.8" rx="2" fill="#5d83a8"/>
+<text x="141.0" y="301.2" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">8.9</text>
+<text x="141.0" y="378" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#2b2b2b">Sonnet v1</text>
+<rect x="263.4" y="302.6" width="95.2" height="55.4" rx="2" fill="#5d83a8"/>
+<text x="311.0" y="295.6" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">9.9</text>
+<text x="311.0" y="378" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#2b2b2b">Sonnet v2</text>
+<rect x="433.4" y="288.0" width="95.2" height="70.0" rx="2" fill="#27496d"/>
+<text x="481.0" y="281.0" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">12.5</text>
+<text x="481.0" y="378" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#2b2b2b">Opus v1</text>
+<rect x="603.4" y="298.1" width="95.2" height="59.9" rx="2" fill="#27496d"/>
+<text x="651.0" y="291.1" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#2b2b2b">10.7</text>
+<text x="651.0" y="378" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#2b2b2b">Opus v2</text>
+</svg>
