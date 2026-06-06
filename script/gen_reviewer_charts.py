@@ -105,7 +105,13 @@ def grouped(fn, title, categories, series, ymax, ticks, fmt="{:.0f}",
 def single(fn, title, bars, ymax, ticks, fmt="{:.0f}", subtitle=None, h=430,
            ylabel="recall %", brackets=None):
     # bars: list of (label, value, color)
-    left, right, top, bottom = 56, 24, 78, 72
+    if brackets:
+        top = 118 if subtitle else 104
+    elif subtitle:
+        top = 92
+    else:
+        top = 78
+    left, right, bottom = 56, 24, 72
     plotW = W - left - right
     plotH = h - top - bottom
     parts = []
@@ -143,13 +149,14 @@ def single(fn, title, bars, ymax, ticks, fmt="{:.0f}", subtitle=None, h=430,
                          f'text-anchor="middle" font-family="{LFONT}" font-size="12.5" '
                          f'fill="{INK}">{esc(ln)}</text>')
     if brackets:
+        hb = top - 18  # bracket line, in its own clear band above the plot
         for (i0, i1, txt) in brackets:
-            x0 = centers[i0] - bw / 2 - 4
-            x1 = centers[i1] + bw / 2 + 4
-            yb = top - 12
-            parts.append(f'<path d="M{x0:.1f} {yb} L{x0:.1f} {yb-6} L{x1:.1f} {yb-6} '
-                         f'L{x1:.1f} {yb}" fill="none" stroke="{AXIS}" stroke-width="1"/>')
-            parts.append(f'<text x="{(x0+x1)/2:.1f}" y="{yb-11:.0f}" text-anchor="middle" '
+            x0 = centers[i0] - bw / 2 - 2
+            x1 = centers[i1] + bw / 2 + 2
+            parts.append(f'<path d="M{x0:.1f} {hb+6:.1f} L{x0:.1f} {hb:.1f} '
+                         f'L{x1:.1f} {hb:.1f} L{x1:.1f} {hb+6:.1f}" fill="none" '
+                         f'stroke="{AXIS}" stroke-width="1"/>')
+            parts.append(f'<text x="{(x0+x1)/2:.1f}" y="{hb-7:.0f}" text-anchor="middle" '
                          f'font-family="{LFONT}" font-size="12.5" fill="{SUB}">{esc(txt)}</text>')
     parts.append('</svg>')
     write(fn, parts)
