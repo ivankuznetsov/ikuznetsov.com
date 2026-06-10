@@ -43,7 +43,7 @@ Hive ships as a signed Ruby gem: [Homebrew](https://github.com/ivankuznetsov/hom
   <figcaption>Installing Hive</figcaption>
 </figure>
 
-Once it's installed, you run `hive init` inside any project. It asks a handful of setup questions—which agent plans, which one writes the code, how many review rounds, whether to start the daemon—with sensible defaults (Claude for planning, Codex for development), so you can hit enter through most of it. Then it wires everything up: the `.hive-state` folder that holds your tasks, the background daemon that moves them through the pipeline, and a project wiki the agents read from and keep up to date.
+Once it's installed, you run `hive init` inside any project. It walks you through a short guided setup—which agent plans, which one writes the code, how Claude runs and what it's allowed to do, how many review rounds, plus patrol and daemon settings—with sensible defaults on every prompt (Claude for planning, Codex for development), so you can hit enter through most of it. Then it wires everything up: the `.hive-state` folder that holds your tasks, the background daemon that moves them through the pipeline, and a project wiki the agents read from and keep up to date.
 
 <figure class="demo-video">
   <video muted loop playsinline preload="metadata">
