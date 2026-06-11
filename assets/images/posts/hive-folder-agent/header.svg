@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="800" viewBox="0 0 2000 800">
+  <!-- 5:2 header: a terminal where the pipeline is ls-able and approval is mv -->
+  <defs>
+    <clipPath id="win"><rect x="120" y="80" width="1760" height="640" rx="18"/></clipPath>
+  </defs>
+
+  <!-- page background -->
+  <rect width="2000" height="800" fill="#14181d"/>
+
+  <!-- terminal window -->
+  <rect x="120" y="80" width="1760" height="640" rx="18" fill="#1e2227" stroke="#2c333b" stroke-width="2"/>
+
+  <g clip-path="url(#win)">
+    <!-- title bar -->
+    <rect x="120" y="80" width="1760" height="64" fill="#252b32"/>
+    <circle cx="172" cy="112" r="11" fill="#e0635c"/>
+    <circle cx="208" cy="112" r="11" fill="#e0a458"/>
+    <circle cx="244" cy="112" r="11" fill="#7aa468"/>
+    <text xml:space="preserve" x="1000" y="121" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="26" fill="#8a939e" text-anchor="middle">writero — hive</text>
+  </g>
+
+  <!-- terminal content -->
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="34">
+    <!-- ls command -->
+    <text xml:space="preserve" x="200" y="240"><tspan fill="#7aa468">~/Dev/writero</tspan><tspan fill="#8a939e"> $ </tspan><tspan fill="#e6e9ec">ls .hive-state/stages/</tspan></text>
+
+    <!-- stage listing, two rows like real column output -->
+    <text xml:space="preserve" x="200" y="320" fill="#7aa2f7">1-inbox      2-brainstorm      3-plan      4-execute      5-open-pr</text>
+    <text xml:space="preserve" x="200" y="384" fill="#7aa2f7">6-review     7-artifacts       8-finalize  9-done</text>
+
+    <!-- mv command -->
+    <text xml:space="preserve" x="200" y="496"><tspan fill="#7aa468">~/Dev/writero</tspan><tspan fill="#8a939e"> $ </tspan><tspan fill="#e6e9ec">mv 2-brainstorm/add-voice-input-260611-a41f 3-plan/</tspan></text>
+    <text xml:space="preserve" x="200" y="560" fill="#5c6670"># approval is mv — the daemon takes it from here</text>
+
+    <!-- daemon tick -->
+    <text xml:space="preserve" x="200" y="664"><tspan fill="#e07a3f">●</tspan><tspan fill="#8a939e"> hive daemon</tspan><tspan fill="#5c6670">   dispatching 3-plan/add-voice-input-260611-a41f</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="470" viewBox="0 0 1480 470" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="1480" height="470" fill="#ffffff"/>
+  <text x="740" y="56" font-size="30" font-weight="600" fill="#1f2328" text-anchor="middle">One review pass — stage 6-review</text>
+
+  <!-- loop-back arrow (drawn first, behind boxes) -->
+  <path d="M 1040 200 L 1040 120 L 140 120 L 140 200" fill="none" stroke="#9aa4ae" stroke-width="2.5" stroke-dasharray="7 6"/>
+  <polygon points="140,200 133,186 147,186" fill="#9aa4ae"/>
+  <text x="590" y="108" font-size="22" fill="#57606a" text-anchor="middle">next pass (cap 2)</text>
+
+  <!-- CI fix -->
+  <rect x="60" y="200" width="160" height="64" rx="10" fill="#27496d"/>
+  <text x="140" y="240" font-size="24" fill="#ffffff" text-anchor="middle">CI fix agent</text>
+
+  <!-- arrow -->
+  <line x1="220" y1="232" x2="290" y2="232" stroke="#9aa4ae" stroke-width="2.5"/>
+  <polygon points="290,232 277,225 277,239" fill="#9aa4ae"/>
+
+  <!-- reviewers stack -->
+  <rect x="300" y="150" width="330" height="56" rx="10" fill="#27496d"/>
+  <text x="465" y="186" font-size="23" fill="#ffffff" text-anchor="middle">claude · ce-code-review</text>
+  <rect x="300" y="218" width="330" height="56" rx="10" fill="#27496d"/>
+  <text x="465" y="254" font-size="23" fill="#ffffff" text-anchor="middle">codex · ce-code-review</text>
+  <rect x="300" y="286" width="330" height="56" rx="10" fill="#27496d"/>
+  <text x="465" y="322" font-size="23" fill="#ffffff" text-anchor="middle">claude · pr-review-toolkit</text>
+  <text x="465" y="380" font-size="21" fill="#57606a" text-anchor="middle">reviewers — sequential, cross-vendor</text>
+  <text x="465" y="408" font-size="20" fill="#8a939e" text-anchor="middle">$50 budget · 7200 s timeout each</text>
+
+  <!-- arrow -->
+  <line x1="630" y1="246" x2="700" y2="246" stroke="#9aa4ae" stroke-width="2.5"/>
+  <polygon points="700,246 687,239 687,253" fill="#9aa4ae"/>
+
+  <!-- triage -->
+  <rect x="710" y="214" width="150" height="64" rx="10" fill="#e07a3f"/>
+  <text x="785" y="254" font-size="24" fill="#ffffff" text-anchor="middle">triage</text>
+  <text x="785" y="310" font-size="20" fill="#8a939e" text-anchor="middle">bias: courageous | safetyist</text>
+
+  <!-- arrow -->
+  <line x1="860" y1="246" x2="930" y2="246" stroke="#9aa4ae" stroke-width="2.5"/>
+  <polygon points="930,246 917,239 917,253" fill="#9aa4ae"/>
+
+  <!-- fix agent -->
+  <rect x="940" y="214" width="150" height="64" rx="10" fill="#27496d"/>
+  <text x="1015" y="254" font-size="24" fill="#ffffff" text-anchor="middle">fix agent</text>
+
+  <!-- arrow to browser test -->
+  <line x1="1090" y1="246" x2="1160" y2="246" stroke="#9aa4ae" stroke-width="2.5"/>
+  <polygon points="1160,246 1147,239 1147,253" fill="#9aa4ae"/>
+
+  <!-- browser test -->
+  <rect x="1170" y="214" width="190" height="64" rx="10" fill="#27496d"/>
+  <text x="1265" y="254" font-size="24" fill="#ffffff" text-anchor="middle">browser test</text>
+  <text x="1265" y="316" font-size="20" fill="#8a939e" text-anchor="middle" font-family="ui-monospace, Menlo, monospace">REVIEW_COMPLETE</text>
+</svg>
