@@ -15,9 +15,11 @@ twitter:
   card: summary_large_image
 ---
 
+For two centuries, building anything required a concentration of people — bodies crammed into the same place, locked into the close, involuntary relationships we politely call "collaboration." AI is the first thing that quietly dissolves that requirement. So the question I care about isn't whether it writes code or spits out slop — it's what happens to how we treat each other once we're no longer forced together.
+
 ## Borderline Augmentation
 
-A lot of the talk is about AI enabling creativity and a new wave of creators, while its opposition calls it slop and a useless waste of water — or some other bullshit that losers tell the ones who build. But I want to talk about how AI is fundamentally changing human communication. The part of it where we think about the boundaries of norms and values.
+A lot of the talk is about AI enabling creativity and a new wave of creators, while its opposition calls it slop and a useless waste of water — or some other bullshit that losers tell the ones who build.
 
 Will most of the products made with AI become billion-dollar companies? Obviously not. Just like not all painters end up in the Louvre. But it will unleash creativity in a lot of people who were held back by the tools. Will it be world-class creativity? Obviously not. But will it make people more content? Like any creative process — obviously yes.
 
