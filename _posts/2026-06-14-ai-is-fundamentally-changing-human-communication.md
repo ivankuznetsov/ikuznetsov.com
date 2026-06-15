@@ -15,6 +15,8 @@ twitter:
   card: summary_large_image
 ---
 
+## Borderline Augmentation
+
 A lot of the talk is about AI enabling creativity and a new wave of creators, while its opposition calls it slop and a useless waste of water — or some other bullshit that losers tell the ones who build. But I want to talk about how AI is fundamentally changing human communication. The part of it where we think about the boundaries of norms and values.
 
 Will most of the products made with AI become billion-dollar companies? Obviously not. Just like not all painters end up in the Louvre. But it will unleash creativity in a lot of people who were held back by the tools. Will it be world-class creativity? Obviously not. But will it make people more content? Like any creative process — obviously yes.
@@ -28,3 +30,17 @@ And I see a lot of professional coders arguing about slop, and look — I think 
 So when I was starting my career 20 years ago, I had to talk to people to learn, get through all the hazing, take the humiliation to reach the knowledge — half of which was wrong or outdated anyway. Now I have a partner. It listens. It knows far more than I do, it lacks some of my expertise, but it treats me as a peer — not as an adversary or someone to bully.
 
 Humans still gatekeep resources and industries, so yes, your much better vibe-coded app won't surpass the Silicon Valley poster children, and you still have to deal with sleazy people to build a career or a business. But at least now a lot of people know it can be different — that this isn't the norm. And that's a very empowering thing to know.
+
+## The Final Enlightenment
+
+Since the late industrial revolution we've been wrestling with abundance, and it increasingly seems that abundance is more dangerous to a society than famine — we got the deadliest wars not because we were fighting over food, but because we were abundant enough to afford starting them. As the Haber-Bosch process modernized agriculture, the societal tensions only grew sharper, leading to two world wars and countless deadly conflicts — and to even deadlier societal experiments: Communism killed on the order of 100 million people, rivalling both world wars combined.
+
+All of these societal processes revolve around one topic — how to better organize resources, and which system can do it best. It reached the management space too: since the 1920s, new forms of organizing work, and solutions for handling bigger and bigger projects, became common inside institutions, alongside the question of how to organize governance at scale. You can argue about when self-managed work collectives became a common topic of discussion — I'd trace it back to the French Revolution, but really to the 1920s, though we can agree the major academic wave started in the 1960s. And just like the large-scale governance debates, the smaller, organization-wide ones all circled the same simple idea: how to make people better.
+
+There's another topic that has nothing to do with world wars or revolutions, but has been circling for the last hundred years: becoming less fat. For at least a century we produced thousands of different approaches, most of them reducing to the same simple problem — how to make people better.
+
+Then Ozempic appeared. And people started losing fat without any enlightened spiritual experience or major psychological breakthrough. More than that — the psychological and spiritual changes started to follow the physiological one.
+
+So for a hundred years we've been talking about how to make people better. We coined nice names — self-managed organization, teal management (after the teal level in Spiral Dynamics) — for how to make people self-organizing and collaborative instead of monkeys fighting over bananas in the trees. Without any real success, to be honest. You can throw rocks at me, telling me how you built your self-managed business — but I'll throw a bigger rock back: you have the same hierarchy as everyone else, just with an extra layer of social dance on top, a bit better hidden. So you're either closing your eyes to it, or being delusional.
+
+And now, as AI-pilled people appear — with their sense of how it can be and how it shouldn't be — we're finally starting to see what the theorists promised us: people organizing around the project, not around the hierarchy. It's a small fire right now, but with wider adoption — shrinking org sizes, broader shifts in employment — it will, in my opinion, become a much bigger trend. The more AI takes part in our lives, the more voluntary our participation in work and society becomes. We'll no longer be required to work — but still welcome to.
