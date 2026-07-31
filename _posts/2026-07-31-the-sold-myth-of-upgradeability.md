@@ -8,6 +8,11 @@ description: "Framework sold upgradeability as its competitive edge. A year with
 
 A year ago, I purchased a top-spec Framework Laptop 13. I don't regret it. It's a great machine with its own drawbacks, but it brought me a lot of joy by getting me back to Linux—and especially to Omarchy.
 
+<figure class="portrait-photo">
+  <img src="/assets/images/posts/the-sold-myth-of-upgradeability/framework-laptop-box.webp" alt="An open Framework shipping box with the bezel, power adapter, and expansion cards packaged separately." width="960" height="1280" loading="lazy" decoding="async">
+  <figcaption>The modular promise, still in its box.</figcaption>
+</figure>
+
 I don't regret it because I understood from the start that upgradeability probably wouldn't work out and that I would need to buy another laptop soon enough, just as I had before. Every few years, we get some initiative like a repairable phone. But this was the first time the idea came not from European recycling or open-platform activists, but from a normal commercial company making a full lineup of laptops and desktops.
 
 I like being able to fix my own devices, but once you account for the complexity of modern electronics, every attempt comes with trade-offs. You have to choose between a better device and the ability to tinker with its internals. Unfortunately, a year ago, there weren't many better PC laptops either.

@@ -805,6 +805,12 @@ section ul li:last-child {
   line-height: 1.4;
 }
 
+.post-content figure.portrait-photo {
+  max-width: 34rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Plain images in post content (no figure wrapper) */
 .post-content img {
   max-width: 100%;
